@@ -8,7 +8,7 @@ Install code-1.15.1-1502904099.el7.x86_64.rpm using command:
 After installation browse to Visual Studio Code software.
 
 On the Intro screen click on New File and start coding (save the file as filename.js)
- IOT_VIsual-Studio-Code/Screenshot from 2018-12-24 10-01-10.png 
+ ![Alt text](IOT_VIsual-Studio-Code/Screenshot from 2018-12-24 10-01-10.png?raw=true "Title") 
 *Screenshot from 2018-12-24 10-01-10.jpg*
 
 Ways to Run the code:
