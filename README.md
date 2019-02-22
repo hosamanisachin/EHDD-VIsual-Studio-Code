@@ -8,12 +8,12 @@ Install code-1.15.1-1502904099.el7.x86_64.rpm using command:
 After installation browse to Visual Studio Code software.
 
 On the Intro screen click on New File and start coding (save the file as filename.js)
- ![Alt text](IOT_VIsual-Studio-Code/Screenshot from 2018-12-24 10-01-10.png?raw=true "Title") 
+ ![Alt text](IOT_VIsual-Studio-Code/Screenshot from 2018-12-24 10-01-10.png) 
 *Screenshot from 2018-12-24 10-01-10.jpg*
 
 Ways to Run the code:
 1- Click on Debugg Menu and click on "start debugging" option
-   IOT_VIsual-Studio-Code/Debugg_window.png 
+   ![Alt text](https://github.com/hosamanisachin/IOT_VIsual-Studio-Code/blob/IOT/Debugg_window.png)
   *Debugg_window.jpg*
   
 2-Goto View->Integrated Terminal
