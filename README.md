@@ -19,7 +19,7 @@ Ways to Run the code:
 2-Goto View->Integrated Terminal
    On the terminal browse over to the directory where the current file is stored and type the command
     < node filename.js >
-     IOT_VIsual-Studio-Code/Terminal_window.png 
+    ![Alt text](https://github.com/hosamanisachin/IOT_VIsual-Studio-Code/blob/IOT/Terminal_window.png)
     *Terminal_window.jpg*
   
 
