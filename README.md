@@ -8,7 +8,7 @@ Install code-1.15.1-1502904099.el7.x86_64.rpm using command:
 After installation browse to Visual Studio Code software.
 
 On the Intro screen click on New File and start coding (save the file as filename.js)
- ![Alt text](IOT_VIsual-Studio-Code/Screenshot from 2018-12-24 10-01-10.png) 
+ ![Alt text](https://github.com/hosamanisachin/IOT_VIsual-Studio-Code/blob/IOT/Screenshot from 2018-12-24 10-01-10.png) 
 *Screenshot from 2018-12-24 10-01-10.jpg*
 
 Ways to Run the code:
