@@ -4,7 +4,8 @@ JavaScript_Coding_Practise
 *System Config: CentOS
 *Kernel Version: 3.10.0-862.el7.x86_64
 
-(Installing from a file with .rpm formatt)
+(Installing from a file with .rpm format)
+
 
 Install code-1.15.1-1502904099.el7.x86_64.rpm using command: 
   < sudo rpm -i code-1.15.1-1502904099.el7.x86_64.rpm >
