@@ -1,0 +1,58 @@
+Node.js is a javascript framwork. There are various in-built modules in node.js
+
+Coming to [http] in node.js is a module that allows client-server communication via HTTP protocol.
+-This module provides an interface to create either an HTTP client or HTTP server that can communicate with other HTTP servers or client.
+-It also provides streaming of data using stream interface
+  {Stream passes data in chunks, this shows that node.js never buffers the entire request
+    or response at once in the memory}
+   
+  var http=require("http");
+  var app=http.createserver((req,res) => {
+                                          });
+ *The "createserver" method returns a server object that we store in the variable "app". This server object is event emitter.
+ 
+ Certain kinds of objects (called "emitter") can cause some function ("listeners") to be called by emitting any "named" events.
+ 
+ {events in node.js -> emitter_cass.js}
+ 
+- Listening to the request event
+    app.on("request",(req,res) => {  //listen to all the "requests" events on our server object
+                                  });
+The "request" event provides the listener function with two parameter
+a) req - an instance of http.incomingMessage object
+b) res - an instance of http.serverResponce object
+
+Incoming request have components liek URL,Method and Header.
+Node.js makes it easy by attaching them as properties to the request object.
+
+  const{headers,url,method} = request;
+  
+"request" object is a readable stream i.e. by listening to data and end
+"response" object is a writable stream i.e. { setHeader(name,value);
+                                              getHeader(name);
+                                              removeHEader(name);
+                                              }
+                                              
+                                              
+  *****IMPLICITLY BY NODE.JS
+   response.setHaader("Content-Type","application/json");
+   var contentType=response.getHeader("content-type");
+   response.removeHeader("content-Encoding");
+   
+   
+  ******EXPLICITLY
+   response.writeHead(200, {
+                              "content-type":"application/json" //json
+                              //OR
+                              "content-type":"text/plain" //plain test
+                              //OR
+                              "content-type":"text/html" //html
+                              //OR
+                              "content-type":"text/xml" //xml
+                            });
+//to tell the client that we are sending such type of content.
+
+ 
+
+                                  
+                                  
