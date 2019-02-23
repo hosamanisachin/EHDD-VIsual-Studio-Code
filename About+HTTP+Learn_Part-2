@@ -1,0 +1,37 @@
+Error Handling
+-To hear the "error" events of request and response stream.
+
+**As previously we used app.on("request", (req,res))
+
+  res.on("error", rr => {
+                          console.error(err); //prints the error on response
+                        });
+  
+  req.on("error", rr => {
+                          console.error(err); //prints the error on request
+                        });                      
+We know
+1) Import necessary modules
+2) Create a server instance
+3) Attach listener to the request event of server object
+4) Parse request body and header
+5) Write the response to the response stream
+6) Handle error events at request and response streams
+
+** Now we need to listen for new connection
+method - ".listen(PORT,callback)"
+
+spp.listen(8008,() => {
+                        console.log("server listening at 8008");
+                      });
+                      
+**To run this code on terminal
+curl -d "Hello" -H "content-type:text" -X POST http://localhost:8008
+
+OR
+
+curl http://localhost:8008
+
+
+Learnt From: 
+https://medium.freecodecamp.org/a-no-frills-guide-to-node-js-how-to-create-a-node-js-web-app-without-external-packages-a7b480b966d2
